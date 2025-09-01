@@ -1,3 +1,4 @@
+
 // Ejercicio 1:
 const router = {
     tipo: "Router",
@@ -26,7 +27,7 @@ const dispositivosRed2 = [
     { tipo: "Router", marca: "TP-Link", modelo: "Archer C7", precio: 180 }
 ];
 
-dispositivosRed2.filter(dispositivo => dispositivo.marca === "Cisco");
+dispositivosRed2.filter(dispositivo => dispositivo.marca === "TP-Link");
 
 // Ejercicio 4: 
 const servidores = [
